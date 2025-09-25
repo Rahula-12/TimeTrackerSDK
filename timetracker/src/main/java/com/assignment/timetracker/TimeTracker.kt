@@ -22,6 +22,10 @@ object TimeTracker {
         Log.d(tag, message)
     }
 
+    internal fun justTesting() {
+        println("Testing this function")
+    }
+
     /** Starts tracking a tag */
     fun start(tag: String) {
         if (!isEnabled) return
